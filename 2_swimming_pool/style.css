@@ -1,0 +1,205 @@
+body {
+	background-image: url(img/bg.png);
+}
+
+.wrapper {
+	max-width: 1480px;
+	color: rgba(0,60,125,1);
+	font-family: 'Neucha', cursive, sans-serif;
+	font-size: 21px;
+}
+
+.row1-h1 {
+	font-size: 40px;
+	text-transform: uppercase;
+}
+
+.row3 {
+	background-image: url(img/1-03.png);
+	background-repeat: no-repeat;
+	background-size: 1480px 480px;
+	padding: 60px 100px;
+	margin-bottom: 50px;
+}
+
+.row3-text h3 {
+	font-size: 50px;
+}
+
+.row3-text p {
+	font-family: 'Arial', sans-serif;
+	font-size: 18px;
+	margin: 40px 0;
+}
+
+input[type="submit"] {
+	background: rgba(250,40,110,1);
+	color: white;
+	padding: 15px;
+	border-radius: 10px;
+	font-family: 'Arial', sans-serif;
+	font-size: 18px;
+	text-transform: uppercase;
+	border: 0;
+}
+
+.row4 {
+	text-align: center;
+	margin-bottom: 50px
+}
+
+.row4 h4 {
+	font-size: 24px; 
+	/*размер 24 вместо 21*/
+	text-transform: uppercase;
+	margin-bottom: 0;
+}
+
+.row4 p {
+	font-family: 'Arial', sans-serif;
+	font-size: 18px;	
+}
+
+.row5 {
+	margin-bottom: 50px;
+}
+
+.row5-left {
+    //padding: 0;    
+}
+
+.row5-left img {
+/*.row7 img {*/
+	float: left;
+	width: 68px;
+    padding-left: 0;
+	//position: absolute;
+	//top: 50%;
+	//margin-top: -34px;
+}
+
+.row5-left h4 {
+/*.row7 h4 {*/
+	font-size: 24px; 
+	/*размер 24 вместо 21*/
+	text-transform: uppercase;
+	margin-left: 80px;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.row5-left p {
+/*.row7 p {*/
+	font-family: 'Arial', sans-serif;
+	font-size: 18px;
+	margin-left: 80px;
+}
+
+.row5-left {
+	margin-bottom: 25px;
+}
+
+.row5-right {
+	border-radius: 10px;
+	background: rgba(0,60,125,1);
+	color: white;
+	padding: 0;
+}
+
+.row5-right-img {
+    padding: 0;
+}
+
+.row5-right-img img {
+	width: 280px;
+	height: 290px;
+	float: left;
+	margin-left: 0;
+}
+
+.row5-right-text h4 {
+	text-transform: uppercase;
+	//margin: 30px 0 0 300px;
+}
+
+.row5-right-text p {
+	font-family: 'Arial', sans-serif;
+	font-size: 18px;
+	//margin-left: 300px;	
+	margin-bottom: 0;
+}
+
+.row5-right-text input[type="submit"] {
+	margin: 20px;
+}*/
+
+.row6 {
+	margin-bottom: 50px;
+	font-family: 'Arial', sans-serif;
+	font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.row6 p {
+	margin-bottom: 0;
+}
+
+.row7 form {
+	border-radius: 10px;
+	background: rgba(0,60,125,1);
+	color: white;
+	font-family: 'Arial', sans-serif;
+	font-size: 18px;
+	//display: table;
+	padding-top: 20px;
+}
+
+.row7 form h4 {	
+	text-transform: uppercase;
+	font-family: 'Neucha', cursive, sans-serif;
+	font-size: 21px;
+	margin-left: 40px;
+	margin-bottom: 10px;
+	/*center вместо left*/
+	//text-align: center;
+}
+
+.row7 input[type="submit"] {
+	width: 200px;
+	margin: 0 0 20px 190px;
+}
+
+.row7 {
+	margin-bottom: 50px;
+}
+
+.red {
+    color: red;
+    font-weight: 900;
+}
+
+@media screen and (max-width: 950px) {
+	.row3 {
+		padding: 30px 50px;
+		margin-bottom: 25px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+    .row2 {
+        margin-bottom: 0;
+    }
+	.row3 {
+		background-image: none;
+		padding: 10px 10px;
+		margin-bottom: 50px;
+	}
+	.row3 form {
+		text-align: center;
+	}
+	.row5-rightdiv {
+		background: red;
+		color: black;
+		display: block;
+	}
+}

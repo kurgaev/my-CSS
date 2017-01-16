@@ -1,0 +1,217 @@
+* {
+  font-family: Arial;
+  font-size: 13px;
+  color: white;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  background-image: url("http://donaldson.spb.ru/images/bg-news-events.png");
+}
+
+/*.container,
+.row,
+.col-lg-1,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.header-top-contact-city,
+.header-top-contact-phone-code,
+.header-top-contact-phone,
+.header-top-contact-request_button {
+  border: 1px solid red;
+}*/
+
+.header-top {
+  background: #0081C6;
+  min-height: 119px;
+}
+
+.header-row {
+  padding-top: 20px;
+}
+
+.header-top-logo {
+  float: left;
+}
+
+.header-top-logo-img2 {
+  display: none;
+}
+
+.header-top-text {
+  text-align: left;
+  top: 15px;
+}
+
+.header-top-text-line1 {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.header-top-text-line2 {
+  margin: 10px 0;
+}
+
+.header-top-contact {
+  text-align: center;
+  float: right;
+}
+
+.header-top-contact-city {
+  position: relative;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.header-top-contact-phone-code {
+  position: relative;
+  color: #ff6347;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.header-top-contact-phone {
+  position: relative;
+  font-size: 19px;
+  font-weight: bold;
+}
+
+.header-top-contact-request_button {
+  background: #3c3c3c;
+  border-radius: 6px;
+  cursor: pointer;
+  width: 159px;
+  height: 25px;   
+}
+
+.header-top-contact-request_button a {
+  display: block;
+  font-family: Arial;
+  font-size: 13px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 3px 0 0 0;
+}
+
+.header-top-contact-request_button:hover {
+  text-decoration: none;
+  background: #57c0ff;
+}
+
+.header-menu {
+  position: relative;
+  background: #00008B;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.header-menu ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding-left: 0;
+}
+
+.header-menu ul li {
+  display: inline-block;
+  line-height: 49px;
+}
+
+.header-menu ul li a {
+  font-family: Arial;
+  font-size: 13px;
+  color: white;
+  padding: 18px 22px;
+  font-weight: bold;
+}
+
+.header-menu ul li a:hover {
+  background: #0081C6;
+  text-decoration: none;
+}
+
+.menu-level1 {
+  display: none;
+  /*visibility: hidden;*/
+}
+
+/*
+.menu-level1 ul:hover {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding-left: 0;
+}
+
+.menu-level1 ul li:hover {
+  display: block;
+  line-height: 49px;
+}
+
+.menu-level1 ul li a:hover {
+  font-family: Arial;
+  font-size: 13px;
+  color: white;
+  padding: 18px 22px;
+  font-weight: bold;
+}
+*/
+
+.menu-level1-parent {
+  position: relative;
+}
+
+.menu-level1-parent:hover .menu-level1 {
+  display: block;
+  position: absolute;
+  width: 100%;
+  max-height: 49px;
+  padding: 0;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .header-row {
+    padding-top: 0;
+    text-align: center;
+  }
+  .header-top-logo-img1 {
+    display: none;
+  }
+  .header-top-logo-img2 {
+    display: inline-block;
+    margin: 0 auto;
+    top: 0;
+    float: none;
+  }
+  .header-top-contact {
+    top: 20px;
+    float: none;
+    display: inline-block;
+  }
+  .header-top-contact-request_button {
+    margin-bottom: 10px;
+  }
+  .header-menu ul li {
+    display: block;
+  }
+ .header-menu ul li a { 
+    display: block;
+    width: 100%;
+    max-height: 49px;
+    padding: 0;
+  }
+}
